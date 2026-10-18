@@ -1,0 +1,25 @@
+{
+  "_README": "SAMPLE DATA ONLY. These sources are fictional illustrations attached ONLY to the fictional worked-example vendor V-000 (Larkspur). They are flagged is_sample=true throughout the system and MUST NEVER be presented as live OSINT. Real vendors (V-001+) have NO sample sources; investigated offline they will correctly yield 'Insufficient evidence' unless the analyst supplies real source URLs or configures a live search provider.",
+  "V-000": [
+    {
+      "url": "https://www.larkspurservicing.example/linkedin/ceo-ai-assist",
+      "title": "[SAMPLE] Larkspur CEO post: introducing Larkspur Assist",
+      "source_type": "social_post",
+      "source_owner": "larkspurservicing.example",
+      "published_at": "2026-02-04",
+      "extracted_text": "[SAMPLE / FICTIONAL] Our Chief Executive announced Larkspur Assist, an internally developed application built by our own engineering team to support servicing staff. We have run an AI upskilling programme reaching more than 400 servicing agents. The application uses generative AI to draft borrower correspondence, summarise call history and progress routine arrangements without human handoff, reducing average handling time. It is built on leading foundation models.",
+      "authority": "first_party",
+      "directness": "direct"
+    },
+    {
+      "url": "https://www.larkspurservicing.example/careers/applied-ai-engineer",
+      "title": "[SAMPLE] Careers: Applied AI Engineer - Servicing Automation",
+      "source_type": "careers_page",
+      "source_owner": "larkspurservicing.example",
+      "published_at": "2026-01-20",
+      "extracted_text": "[SAMPLE / FICTIONAL] We are hiring an Applied AI Engineer to work on agent orchestration against live account data and call transcription pipelines. Experience with large language model integration and prompt engineering required.",
+      "authority": "first_party",
+      "directness": "indirect"
+    }
+  ]
+}
